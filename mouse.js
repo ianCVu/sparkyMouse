@@ -6,8 +6,8 @@ mouse.height = "50";
 mouse.src = "https://github.com/ianCVu/sparkyMouse/blob/main/mouse.gif?raw=true";
 mouse.style.pointerEvents = "none";
 window.addEventListener("mousemove", function(event) {
-  mouse.style.top = event.clientY + "px";
-  mouse.style.left = event.clientX + "px";
+  mouse.style.top = event.clientY - 20 + "px";
+  mouse.style.left = event.clientX - 20 + "px";
 });
 window.addEventListener("mousedown", function(event) {
   mouse.width = "100";

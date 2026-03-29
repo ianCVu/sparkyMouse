@@ -9,12 +9,4 @@ window.addEventListener("mousemove", function(event) {
   mouse.style.top = event.clientY - 20 + "px";
   mouse.style.left = event.clientX - 20 + "px";
 });
-window.addEventListener("mousedown", function(event) {
-  mouse.width = "100";
-  mouse.height = "100";
-});
-window.addEventListener("mouseup", function(event) {
-  mouse.width = "50";
-  mouse.height = "50";
-});
 document.body.appendChild(mouse);

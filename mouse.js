@@ -10,3 +10,4 @@ window.addEventListener("mousemove", function(event) {
   mouse.style.left = event.clientX - 20 + "px";
 });
 document.body.appendChild(mouse);
+document.body.style.cursor = 'none';
